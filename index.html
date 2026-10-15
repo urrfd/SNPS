@@ -1,0 +1,356 @@
+<title>SNPS</title>
+<meta name="claude:viewport-fit-sides" content="cover">
+<meta name="description" content="SNPS kopplar AI till ert affärssystem. MCP-servrar, ERP-integration och MRP, byggt och driftat av oss, med en människa som godkänner.">
+<meta property="og:title" content="SNPS">
+<meta property="og:description" content="AI som gör riktigt arbete i ert affärssystem. MCP-servrar, ERP-integration och MRP.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://snps.se/">
+<meta property="og:image" content="https://snps.se/img/team.jpg">
+<link rel="icon" href="favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="styles.css">
+
+<nav class="top" aria-label="Huvudmeny"><div class="wrap">
+  <a class="logo" href="index.html">snps<span>.</span></a>
+  <div class="links">
+    <a class="opt" href="#erbjudande">Erbjudande</a>
+    <a class="opt" href="#referenser">Referenser</a>
+    <a class="opt" href="#leverans">Så arbetar vi</a>
+    <a class="opt" href="#om">Om oss</a>
+    <a class="opt" href="personer.html">Personer</a>
+    <a class="btn primary" href="#kontakt">Kontakt</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="photo" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <div class="kicker">ERP · MRP · MCP-servrar</div>
+      <h1>AI som gör riktigt arbete i ert affärssystem. <em>En människa godkänner.</em></h1>
+      <p class="lead">SNPS bygger MCP-servrar, ERP-integrationer och planeringsverktyg som låter AI-assistenter läsa, planera och förbereda arbete i de system ni redan kör. Varje ändring visas först.</p>
+      <div class="cta">
+        <a class="btn primary" href="#erbjudande">Se vårt erbjudande</a>
+        <a class="btn ghost" href="personer.html">Vilka vi är</a>
+      </div>
+      <div class="works">Fungerar med <span class="chip">Claude</span><span class="chip">ChatGPT</span><span class="chip">Copilot</span><span class="chip">MCP</span></div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <defs>
+          <linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B83FF"/><stop offset="1" stop-color="#E8357F"/></linearGradient>
+          <linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#8B83FF"/></linearGradient>
+          <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <!-- lines: assistant -> mcp -> a person -> systems -->
+        <path id="l1" class="line" d="M98 170 L170 170"/>
+        <path id="l2" class="line" d="M262 170 L334 170"/>
+        <path id="l3" class="line" d="M426 170 C 470 170, 480 70, 530 70"/>
+        <path id="l4" class="line" d="M426 170 L530 170"/>
+        <path id="l5" class="line" d="M426 170 C 470 170, 480 270, 530 270"/>
+        <!-- moving dots -->
+        <circle r="4" class="dot"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin=".8s" fill="freeze"/><animateMotion dur="1.6s" begin=".8s" repeatCount="indefinite"><mpath href="#l2"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin="1.6s" fill="freeze"/><animateMotion dur="2s" begin="1.6s" repeatCount="indefinite"><mpath href="#l3"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin="2s" fill="freeze"/><animateMotion dur="2s" begin="2s" repeatCount="indefinite"><mpath href="#l4"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin="2.4s" fill="freeze"/><animateMotion dur="2s" begin="2.4s" repeatCount="indefinite"><mpath href="#l5"/></animateMotion></circle>
+        <!-- assistant -->
+        <g class="node">
+          <circle cx="52" cy="170" r="58" fill="url(#ga)" opacity=".16"/>
+          <circle cx="52" cy="170" r="44" stroke="url(#ga)" stroke-width="2"/>
+          <path d="M52 142 C54.5 160 62 167.5 80 170 C62 172.5 54.5 180 52 198 C49.5 180 42 172.5 24 170 C42 167.5 49.5 160 52 142 Z" fill="#fff"/>
+          <path d="M74 146 C75 151 77 153 82 154 C77 155 75 157 74 162 C73 157 71 155 66 154 C71 153 73 151 74 146 Z" fill="#fff" opacity=".8"/>
+          <text x="52" y="240" class="lbl" text-anchor="middle">AI-assistent</text>
+        </g>
+        <!-- mcp server -->
+        <g class="node mcp">
+          <rect x="172" y="126" width="88" height="88" rx="16" fill="url(#gb)" filter="url(#glow)"/>
+          <rect x="190" y="144" width="52" height="8" rx="4" fill="#fff" opacity=".9"/>
+          <rect x="190" y="162" width="52" height="8" rx="4" fill="#fff" opacity=".7"/>
+          <rect x="190" y="180" width="34" height="8" rx="4" fill="#fff" opacity=".5"/>
+          <text x="216" y="240" class="lbl" text-anchor="middle">MCP-server</text>
+        </g>
+        <!-- a person approves: the gate -->
+        <g class="node gate-art">
+          <circle cx="380" cy="170" r="58" fill="#E8357F" opacity=".14"/>
+          <circle cx="380" cy="170" r="44" fill="#0B1020" stroke="url(#ga)" stroke-width="2.5"/>
+          <circle cx="380" cy="156" r="11" fill="#fff"/>
+          <path d="M358 196 C360 180 370 174 380 174 C390 174 400 180 402 196" fill="#fff"/>
+          <circle cx="408" cy="196" r="13" fill="#22c55e" stroke="#0B1020" stroke-width="3"/>
+          <path d="M402 196 l4.5 4.5 l8.5 -9" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="380" y="240" class="lbl" text-anchor="middle">En människa godkänner</text>
+        </g>
+        <!-- systems -->
+        <g class="node sys">
+          <rect x="530" y="40" width="96" height="60" rx="12"/>
+          <text x="578" y="76" class="lbl big" text-anchor="middle">ERP</text>
+          <rect x="530" y="140" width="96" height="60" rx="12"/>
+          <text x="578" y="176" class="lbl big" text-anchor="middle">MRP</text>
+          <rect x="530" y="240" width="96" height="60" rx="12"/>
+          <text x="578" y="276" class="lbl big" text-anchor="middle">Lager</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="stats" aria-label="I korthet">
+  <div class="wrap">
+    <div class="stat"><b>85 %</b><span>av det manuella arbetet automatiserat redan i beta, hos en svensk industrikund</span></div>
+    <div class="stat"><b>1 dag</b><span>från första möte till uppkopplad testmiljö</span></div>
+    <div class="stat"><b>0</b><span>lösenord till ert affärssystem lagras hos oss</span></div>
+    <div class="stat"><b>100 %</b><span>av ändringarna godkänns av en människa innan de skickas</span></div>
+  </div>
+</div>
+
+<main>
+<section id="erbjudande">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Vårt erbjudande</div>
+      <h2>Affärssystemet är ryggraden. Vi gör det tillgängligt för AI.</h2>
+      <p>Vi bygger, levererar och förvaltar. Ni får en lösning som fungerar i vardagen, med era behörigheter och era regler.</p>
+    </div>
+    <div class="tiles">
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg>
+        <h3>MCP-servrar</h3>
+        <p>En säker uppsättning verktyg som låter Claude, ChatGPT, Copilot eller er egen AI arbeta i ert system, inloggad som användaren.</p>
+        <a href="#mcp">Läs mer →</a>
+      </div>
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h7l2 3h7v9H4z"/><path d="M4 7V5h5"/></svg>
+        <h3>ERP-integration</h3>
+        <p>Försäljning, inköp, lager, produktion och ekonomi på webb, mobil och för AI, med affärsreglerna i klartext.</p>
+        <a href="#erp">Läs mer →</a>
+      </div>
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5M4 19h16"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+        <h3>MRP och planering</h3>
+        <p>Materialbehov som förklarar sig själva, scenarier och leveransbesked planerare kan lita på.</p>
+        <a href="#mrp">Läs mer →</a>
+      </div>
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>
+        <h3>AI-dokumenthantering</h3>
+        <p>Fakturor, ritningar och certifikat läses, sorteras och hamnar rätt. Det osäkra går till en person.</p>
+        <a href="#referenser">Läs mer →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mcp">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">MCP-servrar</div>
+      <h2>Fråga systemet med egna ord. Tryck en gång.</h2>
+    </div>
+    <div class="feature">
+      <div class="copy">
+        <h3>Assistenten läser som användaren och förbereder arbetet</h3>
+        <p>MCP (Model Context Protocol) är den öppna standarden som låter AI-assistenter arbeta med affärssystem. Vi bygger MCP-servern efter era roller och flöden: säljaren frågar om order och lager, planeraren om kapacitet, inköparen om sena leveranser. Ni kan äga lösningen själva.</p>
+        <ul>
+          <li>Inloggning via ert befintliga konto. Inga lösenord hos oss.</li>
+          <li>Läsverktyg som följer systemets egna behörigheter.</li>
+          <li>Ändringar förbereds som ett blad och skickas först när en person trycker.</li>
+          <li>Allt loggas: vad som förbereddes, vem som godkände, vad systemet svarade.</li>
+        </ul>
+      </div>
+    <div class="demo" aria-label="Exempel: AI-assistent kopplad till affärssystemet">
+    <div class="demo-head"><span class="dots"><i></i><i></i><i></i></span><span>Exempel: AI-assistent kopplad till ekonomin</span></div>
+    <div class="msg you">Vilka leverantörsfakturor över 50 000 kr väntar på attest?</div>
+    <div class="msg ai">
+      Tre fakturor väntar. Leverantör C saknar inköpsorder.
+      <table class="inv">
+        <tr><td>Leverantör A</td><td>22/10</td><td>184 300 kr</td></tr>
+        <tr><td>Leverantör B</td><td>24/10</td><td>76 950 kr</td></tr>
+        <tr><td>Leverantör C <span class="flag">ingen IO</span></td><td>31/10</td><td>52 120 kr</td></tr>
+      </table>
+    </div>
+    <div class="msg you">Attestera A och B.</div>
+    <div class="gate" id="gate">
+      <small>Förberett · inget skickat</small>
+      <div class="row"><span>Attest av 2 fakturor</span><span style="font-variant-numeric:tabular-nums">261 250 kr</span></div>
+      <div class="acts">
+        <button type="button" class="yes" id="gate-yes">Godkänn</button>
+        <button type="button" class="no" id="gate-no">Inte nu</button>
+      </div>
+      <p class="result" id="gate-result" aria-live="polite"></p>
+      <span class="stamp" aria-hidden="true">Godkänd ✓</span>
+    </div>
+    <p class="demo-note">Exempel med påhittade fakturor. Prova att godkänna.</p>
+  </div>
+    </div>
+  </div>
+</section>
+
+<section id="erp">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">ERP-integration</div>
+      <h2>Allt affärssystemet kan, på en modern sida.</h2>
+    </div>
+    <div class="feature flip">
+      <div class="copy">
+        <h3>Logiken som sitter fast i skrivbordsklienten blir läsbar överallt</h3>
+        <p>Affärsregler, valideringar, utskriftsmallar och arbetsflöden som byggts under åren fungerar bara i en klient på en PC. Vi importerar dem, översätter dem till klartext och gör dem tillgängliga på webb, mobil och för AI.</p>
+        <ul>
+          <li>Listor och kort som ser ut som systemets egna formulär, så ingen behöver lära om.</li>
+          <li>Plock och pack, inköp, returer och godkännanden som arbetsflöden.</li>
+          <li>Dokument i kundens språk och valuta, som PDF, e-post eller utskrift.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="img/sales.jpg" alt="Försäljningsöversikt med öppna order och kunder på en webbsida" width="1440" height="900"><figcaption>Försäljning på webben, med systemets behörigheter.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="mrp">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">MRP och produktionsplanering</div>
+      <h2>En plan som säger varför.</h2>
+    </div>
+    <div class="feature">
+      <div class="copy">
+        <h3>Förklarade förslag, scenarier och leveransbesked</h3>
+        <p>Klassisk MRP ger en lista med förslag och lämnar planeraren att gissa. Vi visar behovet bakom varje rad: vilken order, vilken stycklista och vilket lagersaldo som drev förslaget, och låter planeraren fråga "vad händer om leveransen blir två veckor sen?".</p>
+        <ul>
+          <li>Inköps- och tillverkningsförslag med orsak.</li>
+          <li>Kapacitet per station och sena order.</li>
+          <li>Kan vi leverera, och när, direkt till säljaren.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="img/capacity.jpg" alt="Kapacitetstavla med resurser per dag, order som dras till ett datum och belastning per station" width="1440" height="900"><figcaption>Kapacitet per station och dag. Order dras till den dag de ska köras; överbelastning syns direkt.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="referenser">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Referenser</div>
+      <h2>I bruk hos svenska industriföretag.</h2>
+    </div>
+    <div class="refs">
+      <div class="ref"><span class="kind">AI-dokumenthantering</span><b>En snabbväxande svensk grossist inom stål och plåt</b><p>Inkommande dokument läses och sorteras automatiskt, och det osäkra går till rätt person.</p></div>
+      <div class="ref"><span class="kind">AI-dokumenthantering</span><b>En plåtbearbetningskoncern med anläggningar i hela Sverige</b><p>Samma dokumentflöde på flera orter, hanterat på ett gemensamt sätt.</p></div>
+      <div class="ref"><span class="kind">MCP-server · ERP</span><b>Vår egen MCP-server för SAP Business One</b><p>AI-assistenten läser och förbereder order, inköp, MRP och produktion, som den inloggade användaren.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="band" id="leverans">
+  <div class="wrap">
+    <div class="kicker">Så arbetar vi</div>
+    <h2>Nära, i små steg, med er i rummet.</h2>
+    <p>Vi är samma personer i första samtalet, i bygget och i driften. Omfattning, upplägg och villkor bestämmer vi tillsammans med er, inte i förväg.</p>
+    <ol class="steps">
+      <li><h3>Första samtal</h3><p>Ni berättar vad ni vill nå. Vi visar en klickbar prototyp på ert eget flöde, ofta redan före mötet.</p></li>
+      <li><h3>Genomgång</h3><p>Vi går igenom era system, ert API och er inloggning tillsammans med er, och enas om vad som ska byggas och i vilken ordning.</p></li>
+      <li><h3>Bygge mot test</h3><p>Lösningen byggs mot er testmiljö, i steg ni kan prova. Inget går live förrän ni har sett det fungera.</p></li>
+      <li><h3>Drift</h3><p>Vi driftar lösningen, eller hjälper er drifta den själva, och håller den i takt med era system och AI-assistenterna.</p></li>
+    </ol>
+  </div>
+</div>
+
+<section id="varfor">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Varför SNPS</div>
+      <h2>Inte en leverantör. En partner som driftar det den bygger.</h2>
+    </div>
+    <div class="why">
+      <div><b>Er inloggning, era behörigheter</b><p>Varje person arbetar som sig själv. Assistenten ser bara det systemet redan tillåter.</p></div>
+      <div><b>Läsa kan aldrig skriva</b><p>Läsverktyg och skrivvägar är åtskilda i koden och testas var för sig.</p></div>
+      <div><b>Godkännandet är spärren</b><p>AI:n förbereder. Bara en person som trycker skickar ändringen, och resultatet läses tillbaka.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="om">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Om oss</div>
+      <h2>Bevisat på riktiga problem i industrin.</h2>
+    </div>
+    <div class="story">
+      <div class="copy">
+        <p>Sommaren 2026 genomförde BeOneNorth och T2 den första upplagan av AI Summer Camp i Skellefteå. Tre industriföretag lämnade verkliga utmaningar. Egil och Vide var med i teamet som löste dem, och grundade sedan SNPS AB.</p>
+        <div class="stats"><div class="wrap">
+          <div class="stat"><b>85 %</b><span>av det manuella arbetet automatiserat redan i beta</span></div>
+          <div class="stat"><b>3</b><span>industriföretag med verkliga utmaningar</span></div>
+          <div class="stat"><b>2</b><span>projekt på väg mot drift</span></div>
+        </div></div>
+        <blockquote class="quote">
+          <p>”De löste vårt problem och hjälpte oss automatisera 85 % av det monotona manuella arbetet redan i betaversionen.”</p>
+          <cite>Industriföretag, AI Summer Camp</cite>
+        </blockquote>
+        <p style="margin-top:22px"><a class="btn" href="personer.html">Vilka vi är →</a></p>
+      </div>
+      <blockquote class="quote" style="margin-top:0">
+        <p>”Min kunskapsnivå nu går inte att jämföra med vad jag kunde innan sommaren. Vi hade mycket ansvar, vilket var både utmanande och givande.”</p>
+        <cite>Medgrundare, SNPS AB</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="contact" id="kontakt">
+  <div class="wrap">
+    <div>
+      <div class="kicker">Kontakt</div>
+      <h2>Hör av dig direkt till oss.</h2>
+      <p>Vi är ett litet team som bygger, levererar och driftar själva. Den du pratar med är samma person som bygger.</p>
+      <dl class="card" style="margin-top:24px">
+        <dt>E-post</dt><dd><a href="mailto:kontakt@snps.se">kontakt@snps.se</a></dd>
+        <dt>Telefon</dt><dd><a href="tel:+46739852506">073 985 25 06</a></dd>
+        <dt>Bolag</dt><dd>SNPS AB · org.nr 559527-2443</dd>
+        <dt>Adress</dt><dd>Lägergatan 23, 934 51 Byske</dd>
+      </dl>
+    </div>
+    <div class="person" style="align-self:center">
+      <div class="avatar" aria-hidden="true">?</div>
+      <div><h3>Vem pratar du med?</h3><p>Vi är två grundare som bygger och levererar själva. Läs vilka vi är och hur du når oss direkt.</p><p><a class="btn" href="personer.html">Personer →</a></p></div>
+    </div>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <span>© 2026 SNPS AB · org.nr 559527-2443 · Lägergatan 23, 934 51 Byske</span>
+</div></footer>
+
+<script>
+(function(){
+  // the demo's press
+  var gate=document.getElementById("gate"),res=document.getElementById("gate-result");
+  function now(){var d=new Date();return String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0")}
+  document.getElementById("gate-yes").addEventListener("click",function(){gate.classList.add("done");res.textContent="Godkänt av dig "+now()+". Skickat och loggat."});
+  document.getElementById("gate-no").addEventListener("click",function(){res.textContent="Inget ändrades. Utkastet sparas till senare."});
+
+  // motion: header shadow, rise-in below the fold, stats counting up
+  var hdr=document.querySelector("nav.top");
+  addEventListener("scroll",function(){hdr.classList.toggle("scrolled",scrollY>8)},{passive:true});
+  if("IntersectionObserver" in window&&!matchMedia("(prefers-reduced-motion: reduce)").matches){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{rootMargin:"0px 0px -10% 0px"});
+    document.querySelectorAll(".tile,.feature>*,.ref,ol.steps li,.why>div,.story>*,.contact .wrap>*").forEach(function(el){
+      if(el.getBoundingClientRect().top>innerHeight){el.classList.add("reveal");io.observe(el)}
+    });
+    document.querySelectorAll(".stat b").forEach(function(b){
+      var m=b.textContent.match(/^(\d+)(.*)$/);if(!m)return;
+      var end=+m[1],rest=m[2],ran=false;
+      var co=new IntersectionObserver(function(es){es.forEach(function(e){
+        if(!e.isIntersecting||ran)return;ran=true;co.disconnect();
+        var t0=performance.now(),dur=1100;
+        (function tick(t){var p=Math.min(1,(t-t0)/dur);p=1-Math.pow(1-p,3);b.textContent=Math.round(end*p)+rest;if(p<1)requestAnimationFrame(tick)})(t0);
+      })},{threshold:.6});
+      co.observe(b);
+    });
+  }
+})();
+</script>
