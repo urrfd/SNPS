@@ -10,6 +10,15 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="styles.css">
+<link rel="alternate" hreflang="sv" href="https://snps.se/personer.html">
+<link rel="alternate" hreflang="en" href="https://snps.se/en/people.html">
+<link rel="alternate" hreflang="x-default" href="https://snps.se/en/people.html">
+<script>/* Swedish browsers get Swedish, all others English; a press on SV/EN is remembered */
+(function(){var here="sv",to={sv:"personer.html",en:"en/people.html"},c;try{c=localStorage.getItem("lang")}catch(e){}
+var l=c||(/^sv\b/i.test((navigator.languages&&navigator.languages[0])||navigator.language||"")?"sv":"en");
+if(to[l]&&l!==here){location.replace(to[l]+location.hash);return}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[data-lang]");if(a)try{localStorage.setItem("lang",a.dataset.lang)}catch(e){}})})();
+</script>
 <style>:root{padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}</style>
 </head>
 <body>
@@ -21,6 +30,7 @@
     <a class="opt" href="index.html#leverans">Så arbetar vi</a>
     <a class="opt" href="index.html#om">Om oss</a>
     <a class="opt" href="personer.html" aria-current="page">Personer</a>
+    <a class="lang" href="en/people.html" hreflang="en" lang="en" data-lang="en">EN</a>
     <a class="btn primary" href="index.html#kontakt">Kontakt</a>
   </div>
 </div></nav>

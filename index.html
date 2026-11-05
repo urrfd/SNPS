@@ -1,5 +1,9 @@
+<!doctype html>
+<html lang="sv">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
 <title>SNPS</title>
-<meta name="claude:viewport-fit-sides" content="cover">
 <meta name="description" content="SNPS kopplar AI till ert affärssystem. MCP-servrar, ERP-integration och MRP, byggt och driftat av oss, med en människa som godkänner.">
 <meta property="og:title" content="SNPS">
 <meta property="og:description" content="AI som gör riktigt arbete i ert affärssystem. MCP-servrar, ERP-integration och MRP.">
@@ -11,15 +15,27 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
 <link rel="stylesheet" href="styles.css">
-
+<link rel="alternate" hreflang="sv" href="https://snps.se/">
+<link rel="alternate" hreflang="en" href="https://snps.se/en/">
+<link rel="alternate" hreflang="x-default" href="https://snps.se/en/">
+<script>/* Swedish browsers get Swedish, all others English; a press on SV/EN is remembered */
+(function(){var here="sv",to={sv:"./",en:"en/"},c;try{c=localStorage.getItem("lang")}catch(e){}
+var l=c||(/^sv\b/i.test((navigator.languages&&navigator.languages[0])||navigator.language||"")?"sv":"en");
+if(to[l]&&l!==here){location.replace(to[l]+location.hash);return}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[data-lang]");if(a)try{localStorage.setItem("lang",a.dataset.lang)}catch(e){}})})();
+</script>
+</head>
+<body>
 <nav class="top" aria-label="Huvudmeny"><div class="wrap">
   <a class="logo" href="index.html">snps<span>.</span></a>
   <div class="links">
     <a class="opt" href="#erbjudande">Erbjudande</a>
+    <a class="opt" href="#busi">Busi</a>
     <a class="opt" href="#referenser">Referenser</a>
     <a class="opt" href="#leverans">Så arbetar vi</a>
     <a class="opt" href="#om">Om oss</a>
     <a class="opt" href="personer.html">Personer</a>
+    <a class="lang" href="en/" hreflang="en" lang="en" data-lang="en">EN</a>
     <a class="btn primary" href="#kontakt">Kontakt</a>
   </div>
 </div></nav>
@@ -230,6 +246,17 @@
   </div>
 </section>
 
+<section id="busi">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Vår produkt</div>
+      <h2>Busi: agenterna gör jobbet, människor godkänner.</h2>
+      <p>Busi tar in AI-agenter i SAP Business One, genom den AI-assistent ni redan använder. Den läser SAP som personen, förbereder varje ändring och visar den i SAP:s eget formulär. Inget skrivs förrän en människa godkänner, och Business One förblir det som gäller.</p>
+      <a class="btn primary" href="https://busi.nu/sv/">Läs mer på busi.nu</a>
+    </div>
+  </div>
+</section>
+
 <section id="referenser">
   <div class="wrap">
     <div class="sec-head">
@@ -354,3 +381,5 @@
   }
 })();
 </script>
+</body>
+</html>

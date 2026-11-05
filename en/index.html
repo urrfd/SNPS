@@ -1,0 +1,385 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width,initial-scale=1,viewport-fit=cover">
+<title>SNPS</title>
+<meta name="description" content="SNPS connects AI to your business system. MCP servers, ERP integration and MRP, built and run by us, with a person who approves.">
+<meta property="og:title" content="SNPS">
+<meta property="og:description" content="AI that does real work in your business system. MCP servers, ERP integration and MRP.">
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://snps.se/en/">
+<meta property="og:image" content="https://snps.se/img/team.jpg">
+<link rel="icon" href="../favicon.svg">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@400;600;700;800&family=JetBrains+Mono:wght@500&display=swap">
+<link rel="stylesheet" href="../styles.css">
+<link rel="alternate" hreflang="sv" href="https://snps.se/">
+<link rel="alternate" hreflang="en" href="https://snps.se/en/">
+<link rel="alternate" hreflang="x-default" href="https://snps.se/en/">
+<script>/* Swedish browsers get Swedish, all others English; a press on SV/EN is remembered */
+(function(){var here="en",to={sv:"../",en:"./"},c;try{c=localStorage.getItem("lang")}catch(e){}
+var l=c||(/^sv\b/i.test((navigator.languages&&navigator.languages[0])||navigator.language||"")?"sv":"en");
+if(to[l]&&l!==here){location.replace(to[l]+location.hash);return}
+document.addEventListener("click",function(e){var a=e.target.closest&&e.target.closest("a[data-lang]");if(a)try{localStorage.setItem("lang",a.dataset.lang)}catch(e){}})})();
+</script>
+</head>
+<body>
+<nav class="top" aria-label="Main menu"><div class="wrap">
+  <a class="logo" href="./">snps<span>.</span></a>
+  <div class="links">
+    <a class="opt" href="#erbjudande">Services</a>
+    <a class="opt" href="#busi">Busi</a>
+    <a class="opt" href="#referenser">References</a>
+    <a class="opt" href="#leverans">How we work</a>
+    <a class="opt" href="#om">About us</a>
+    <a class="opt" href="people.html">People</a>
+    <a class="lang" href="../" hreflang="sv" lang="sv" data-lang="sv">SV</a>
+    <a class="btn primary" href="#kontakt">Contact</a>
+  </div>
+</div></nav>
+
+<header class="hero" id="top">
+  <div class="photo" aria-hidden="true"></div>
+  <div class="wrap">
+    <div>
+      <div class="kicker">ERP · MRP · MCP servers</div>
+      <h1>AI that does real work in your business system. <em>A person approves.</em></h1>
+      <p class="lead">SNPS builds MCP servers, ERP integrations and planning tools that let AI assistants read, plan and prepare work in the systems you already run. Every change is shown first.</p>
+      <div class="cta">
+        <a class="btn primary" href="#erbjudande">See our services</a>
+        <a class="btn ghost" href="people.html">Who we are</a>
+      </div>
+      <div class="works">Works with <span class="chip">Claude</span><span class="chip">ChatGPT</span><span class="chip">Copilot</span><span class="chip">MCP</span></div>
+    </div>
+
+    <div class="hero-art" aria-hidden="true">
+      <svg viewBox="0 0 640 340" xmlns="http://www.w3.org/2000/svg" fill="none">
+        <defs>
+          <linearGradient id="ga" x1="0" y1="0" x2="1" y2="1"><stop offset="0" stop-color="#8B83FF"/><stop offset="1" stop-color="#E8357F"/></linearGradient>
+          <linearGradient id="gb" x1="0" y1="0" x2="1" y2="0"><stop offset="0" stop-color="#4F46E5"/><stop offset="1" stop-color="#8B83FF"/></linearGradient>
+          <filter id="glow" x="-40%" y="-40%" width="180%" height="180%"><feGaussianBlur stdDeviation="8" result="b"/><feMerge><feMergeNode in="b"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+        </defs>
+        <!-- lines: assistant -> mcp -> a person -> systems -->
+        <path id="l1" class="line" d="M98 170 L170 170"/>
+        <path id="l2" class="line" d="M262 170 L334 170"/>
+        <path id="l3" class="line" d="M426 170 C 470 170, 480 70, 530 70"/>
+        <path id="l4" class="line" d="M426 170 L530 170"/>
+        <path id="l5" class="line" d="M426 170 C 470 170, 480 270, 530 270"/>
+        <!-- moving dots -->
+        <circle r="4" class="dot"><animateMotion dur="1.6s" repeatCount="indefinite"><mpath href="#l1"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin=".8s" fill="freeze"/><animateMotion dur="1.6s" begin=".8s" repeatCount="indefinite"><mpath href="#l2"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin="1.6s" fill="freeze"/><animateMotion dur="2s" begin="1.6s" repeatCount="indefinite"><mpath href="#l3"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin="2s" fill="freeze"/><animateMotion dur="2s" begin="2s" repeatCount="indefinite"><mpath href="#l4"/></animateMotion></circle>
+        <circle r="4" class="dot" opacity="0"><set attributeName="opacity" to="1" begin="2.4s" fill="freeze"/><animateMotion dur="2s" begin="2.4s" repeatCount="indefinite"><mpath href="#l5"/></animateMotion></circle>
+        <!-- assistant -->
+        <g class="node">
+          <circle cx="52" cy="170" r="58" fill="url(#ga)" opacity=".16"/>
+          <circle cx="52" cy="170" r="44" stroke="url(#ga)" stroke-width="2"/>
+          <path d="M52 142 C54.5 160 62 167.5 80 170 C62 172.5 54.5 180 52 198 C49.5 180 42 172.5 24 170 C42 167.5 49.5 160 52 142 Z" fill="#fff"/>
+          <path d="M74 146 C75 151 77 153 82 154 C77 155 75 157 74 162 C73 157 71 155 66 154 C71 153 73 151 74 146 Z" fill="#fff" opacity=".8"/>
+          <text x="52" y="240" class="lbl" text-anchor="middle">AI assistant</text>
+        </g>
+        <!-- mcp server -->
+        <g class="node mcp">
+          <rect x="172" y="126" width="88" height="88" rx="16" fill="url(#gb)" filter="url(#glow)"/>
+          <rect x="190" y="144" width="52" height="8" rx="4" fill="#fff" opacity=".9"/>
+          <rect x="190" y="162" width="52" height="8" rx="4" fill="#fff" opacity=".7"/>
+          <rect x="190" y="180" width="34" height="8" rx="4" fill="#fff" opacity=".5"/>
+          <text x="216" y="240" class="lbl" text-anchor="middle">MCP server</text>
+        </g>
+        <!-- a person approves: the gate -->
+        <g class="node gate-art">
+          <circle cx="380" cy="170" r="58" fill="#E8357F" opacity=".14"/>
+          <circle cx="380" cy="170" r="44" fill="#0B1020" stroke="url(#ga)" stroke-width="2.5"/>
+          <circle cx="380" cy="156" r="11" fill="#fff"/>
+          <path d="M358 196 C360 180 370 174 380 174 C390 174 400 180 402 196" fill="#fff"/>
+          <circle cx="408" cy="196" r="13" fill="#22c55e" stroke="#0B1020" stroke-width="3"/>
+          <path d="M402 196 l4.5 4.5 l8.5 -9" stroke="#fff" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round"/>
+          <text x="380" y="240" class="lbl" text-anchor="middle">A person approves</text>
+        </g>
+        <!-- systems -->
+        <g class="node sys">
+          <rect x="530" y="40" width="96" height="60" rx="12"/>
+          <text x="578" y="76" class="lbl big" text-anchor="middle">ERP</text>
+          <rect x="530" y="140" width="96" height="60" rx="12"/>
+          <text x="578" y="176" class="lbl big" text-anchor="middle">MRP</text>
+          <rect x="530" y="240" width="96" height="60" rx="12"/>
+          <text x="578" y="276" class="lbl big" text-anchor="middle">Stock</text>
+        </g>
+      </svg>
+    </div>
+  </div>
+</header>
+
+<div class="stats" aria-label="In short">
+  <div class="wrap">
+    <div class="stat"><b>85%</b><span>of the manual work automated already in beta, at a Swedish manufacturer</span></div>
+    <div class="stat"><b>1 day</b><span>from first meeting to a connected test system</span></div>
+    <div class="stat"><b>0</b><span>passwords to your business system stored with us</span></div>
+    <div class="stat"><b>100%</b><span>of changes approved by a person before they are sent</span></div>
+  </div>
+</div>
+
+<main>
+<section id="erbjudande">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">What we offer</div>
+      <h2>Your business system is the backbone. We open it to AI.</h2>
+      <p>We build, deliver and maintain. You get a solution that works day to day, with your permissions and your rules.</p>
+    </div>
+    <div class="tiles">
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><rect x="3" y="4" width="18" height="6" rx="1.5"/><rect x="3" y="14" width="18" height="6" rx="1.5"/><path d="M7 7h.01M7 17h.01"/></svg>
+        <h3>MCP servers</h3>
+        <p>A safe set of tools that lets Claude, ChatGPT, Copilot or your own AI work in your system, signed in as the user.</p>
+        <a href="#mcp">Read more →</a>
+      </div>
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 7h7l2 3h7v9H4z"/><path d="M4 7V5h5"/></svg>
+        <h3>ERP integration</h3>
+        <p>Sales, purchasing, inventory, production and finance on the web, on mobile and for AI, with the business rules in plain language.</p>
+        <a href="#erp">Read more →</a>
+      </div>
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M4 19V5M4 19h16"/><path d="M7 15l4-5 3 3 5-7"/></svg>
+        <h3>MRP and planning</h3>
+        <p>Material requirements that explain themselves, scenarios, and delivery dates planners can trust.</p>
+        <a href="#mrp">Read more →</a>
+      </div>
+      <div class="tile">
+        <svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true"><path d="M7 3h7l5 5v13H7z"/><path d="M14 3v5h5M10 13h6M10 17h6"/></svg>
+        <h3>AI document handling</h3>
+        <p>Invoices, drawings and certificates are read, sorted and filed in the right place. Anything uncertain goes to a person.</p>
+        <a href="#referenser">Read more →</a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section id="mcp">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">MCP servers</div>
+      <h2>Ask the system in your own words. Press once.</h2>
+    </div>
+    <div class="feature">
+      <div class="copy">
+        <h3>The assistant reads as the user and prepares the work</h3>
+        <p>MCP (Model Context Protocol) is the open standard that lets AI assistants work with business systems. We build the MCP server around your roles and flows: sales asks about orders and stock, the planner about capacity, purchasing about late deliveries. You can own the solution yourselves.</p>
+        <ul>
+          <li>Sign-in with your existing account. No passwords with us.</li>
+          <li>Read tools that follow the system's own permissions.</li>
+          <li>Changes are prepared as a sheet and sent only when a person presses.</li>
+          <li>Everything is logged: what was prepared, who approved, what the system answered.</li>
+        </ul>
+      </div>
+    <div class="demo" aria-label="Example: an AI assistant connected to the business system">
+    <div class="demo-head"><span class="dots"><i></i><i></i><i></i></span><span>Example: an AI assistant connected to finance</span></div>
+    <div class="msg you">Which supplier invoices over SEK 50,000 are waiting for approval?</div>
+    <div class="msg ai">
+      Three invoices are waiting. Supplier C has no purchase order.
+      <table class="inv">
+        <tr><td>Supplier A</td><td>22/10</td><td>SEK 184,300</td></tr>
+        <tr><td>Supplier B</td><td>24/10</td><td>SEK 76,950</td></tr>
+        <tr><td>Supplier C <span class="flag">no PO</span></td><td>31/10</td><td>SEK 52,120</td></tr>
+      </table>
+    </div>
+    <div class="msg you">Approve A and B.</div>
+    <div class="gate" id="gate">
+      <small>Prepared · nothing sent</small>
+      <div class="row"><span>Approve 2 invoices</span><span style="font-variant-numeric:tabular-nums">SEK 261,250</span></div>
+      <div class="acts">
+        <button type="button" class="yes" id="gate-yes">Approve</button>
+        <button type="button" class="no" id="gate-no">Not now</button>
+      </div>
+      <p class="result" id="gate-result" aria-live="polite"></p>
+      <span class="stamp" aria-hidden="true">Approved ✓</span>
+    </div>
+    <p class="demo-note">An example with made-up invoices. Try approving.</p>
+  </div>
+    </div>
+  </div>
+</section>
+
+<section id="erp">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">ERP integration</div>
+      <h2>Everything your business system can do, on a modern page.</h2>
+    </div>
+    <div class="feature flip">
+      <div class="copy">
+        <h3>The logic stuck in the desktop client becomes readable everywhere</h3>
+        <p>Business rules, validations, print layouts and workflows built up over the years only work in a client on one PC. We import them, translate them into plain language and make them available on the web, on mobile and for AI.</p>
+        <ul>
+          <li>Lists and cards that look like the system's own forms, so nobody has to relearn.</li>
+          <li>Pick and pack, purchasing, returns and approvals as workflows.</li>
+          <li>Documents in the customer's language and currency, as PDF, email or print.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="../img/sales.jpg" alt="Sales overview with open orders and customers on a web page" width="1440" height="900"><figcaption>Sales on the web, with the system's permissions.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="mrp">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">MRP and production planning</div>
+      <h2>A plan that says why.</h2>
+    </div>
+    <div class="feature">
+      <div class="copy">
+        <h3>Explained recommendations, scenarios and delivery dates</h3>
+        <p>Classic MRP gives a list of recommendations and leaves the planner to guess. We show the need behind every line: which order, which bill of materials and which stock level drove it, and let the planner ask "what happens if the delivery is two weeks late?".</p>
+        <ul>
+          <li>Purchase and production recommendations with their reason.</li>
+          <li>Capacity per work station, and late orders.</li>
+          <li>Can we deliver, and when, straight to the salesperson.</li>
+        </ul>
+      </div>
+      <figure class="shot"><img src="../img/capacity.jpg" alt="Capacity board with resources per day, orders dragged to a date and load per station" width="1440" height="900"><figcaption>Capacity per station and day. Orders are dragged to the day they run; overload shows at once.</figcaption></figure>
+    </div>
+  </div>
+</section>
+
+<section id="busi">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Our product</div>
+      <h2>Busi: agents do the work, people approve.</h2>
+      <p>Busi brings AI agents into SAP Business One, through the AI assistant you already use. It reads SAP as the person, prepares every change and shows it in SAP's own form. Nothing is written until a person approves, and Business One stays the record.</p>
+      <a class="btn primary" href="https://busi.nu/">Read more at busi.nu</a>
+    </div>
+  </div>
+</section>
+
+<section id="referenser">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">References</div>
+      <h2>In use at Swedish manufacturers.</h2>
+    </div>
+    <div class="refs">
+      <div class="ref"><span class="kind">AI document handling</span><b>A fast-growing Swedish steel and sheet metal wholesaler</b><p>Incoming documents are read and sorted automatically, and anything uncertain goes to the right person.</p></div>
+      <div class="ref"><span class="kind">AI document handling</span><b>A sheet metal group with plants across Sweden</b><p>The same document flow at several sites, handled one shared way.</p></div>
+      <div class="ref"><span class="kind">MCP server · ERP</span><b>Our own MCP server for SAP Business One</b><p>The AI assistant reads and prepares orders, purchasing, MRP and production, as the signed-in user.</p></div>
+    </div>
+  </div>
+</section>
+
+<div class="band" id="leverans">
+  <div class="wrap">
+    <div class="kicker">How we work</div>
+    <h2>Close, in small steps, with you in the room.</h2>
+    <p>We are the same people in the first call, in the build and in operation. Scope, approach and terms we decide together with you, not in advance.</p>
+    <ol class="steps">
+      <li><h3>First call</h3><p>You tell us what you want to achieve. We show a clickable prototype of your own flow, often before the meeting.</p></li>
+      <li><h3>Walkthrough</h3><p>We go through your systems, your API and your sign-in together with you, and agree on what to build and in what order.</p></li>
+      <li><h3>Build against test</h3><p>The solution is built against your test system, in steps you can try. Nothing goes live until you have seen it work.</p></li>
+      <li><h3>Operation</h3><p>We run the solution, or help you run it yourselves, and keep it in step with your systems and the AI assistants.</p></li>
+    </ol>
+  </div>
+</div>
+
+<section id="varfor">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Why SNPS</div>
+      <h2>Not a vendor. A partner that runs what it builds.</h2>
+    </div>
+    <div class="why">
+      <div><b>Your sign-in, your permissions</b><p>Every person works as themselves. The assistant sees only what the system already allows.</p></div>
+      <div><b>Reading can never write</b><p>Read tools and write paths are kept apart in the code and tested separately.</p></div>
+      <div><b>The approval is the lock</b><p>The AI prepares. Only a person who presses sends the change, and the result is read back.</p></div>
+    </div>
+  </div>
+</section>
+
+<section id="om">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">About us</div>
+      <h2>Proven on real problems in industry.</h2>
+    </div>
+    <div class="story">
+      <div class="copy">
+        <p>In the summer of 2026, BeOneNorth and T2 ran the first AI Summer Camp in Skellefteå, Sweden. Three manufacturers brought real challenges. Egil and Vide were on the team that solved them, and then founded SNPS AB.</p>
+        <div class="stats"><div class="wrap">
+          <div class="stat"><b>85%</b><span>of the manual work automated already in beta</span></div>
+          <div class="stat"><b>3</b><span>manufacturers with real challenges</span></div>
+          <div class="stat"><b>2</b><span>projects on their way to production</span></div>
+        </div></div>
+        <blockquote class="quote">
+          <p>“They solved our problem and helped us automate 85% of the monotonous manual work already in the beta version.”</p>
+          <cite>Manufacturer, AI Summer Camp</cite>
+        </blockquote>
+        <p style="margin-top:22px"><a class="btn" href="people.html">Who we are →</a></p>
+      </div>
+      <blockquote class="quote" style="margin-top:0">
+        <p>“What I know now can't be compared with what I knew before the summer. We had a lot of responsibility, which was both challenging and rewarding.”</p>
+        <cite>Co-founder, SNPS AB</cite>
+      </blockquote>
+    </div>
+  </div>
+</section>
+</main>
+
+<div class="contact" id="kontakt">
+  <div class="wrap">
+    <div>
+      <div class="kicker">Contact</div>
+      <h2>Get in touch with us directly.</h2>
+      <p>We are a small team that builds, delivers and runs everything ourselves. The person you talk to is the person who builds.</p>
+      <dl class="card" style="margin-top:24px">
+        <dt>Email</dt><dd><a href="mailto:kontakt@snps.se">kontakt@snps.se</a></dd>
+        <dt>Phone</dt><dd><a href="tel:+46739852506">+46 73 985 25 06</a></dd>
+        <dt>Company</dt><dd>SNPS AB · Reg. no. 559527-2443</dd>
+        <dt>Address</dt><dd>Lägergatan 23, SE-934 51 Byske, Sweden</dd>
+      </dl>
+    </div>
+    <div class="person" style="align-self:center">
+      <div class="avatar" aria-hidden="true">?</div>
+      <div><h3>Who will you talk to?</h3><p>We are two founders who build and deliver ourselves. Read who we are and how to reach us directly.</p><p><a class="btn" href="people.html">People →</a></p></div>
+    </div>
+  </div>
+</div>
+
+<footer><div class="wrap">
+  <span>© 2026 SNPS AB · Reg. no. 559527-2443 · Lägergatan 23, SE-934 51 Byske, Sweden</span>
+</div></footer>
+
+<script>
+(function(){
+  // the demo's press
+  var gate=document.getElementById("gate"),res=document.getElementById("gate-result");
+  function now(){var d=new Date();return String(d.getHours()).padStart(2,"0")+":"+String(d.getMinutes()).padStart(2,"0")}
+  document.getElementById("gate-yes").addEventListener("click",function(){gate.classList.add("done");res.textContent="Approved by you at "+now()+". Sent and logged."});
+  document.getElementById("gate-no").addEventListener("click",function(){res.textContent="Nothing changed. The draft is kept for later."});
+
+  // motion: header shadow, rise-in below the fold, stats counting up
+  var hdr=document.querySelector("nav.top");
+  addEventListener("scroll",function(){hdr.classList.toggle("scrolled",scrollY>8)},{passive:true});
+  if("IntersectionObserver" in window&&!matchMedia("(prefers-reduced-motion: reduce)").matches){
+    var io=new IntersectionObserver(function(es){es.forEach(function(e){if(e.isIntersecting){e.target.classList.add("in");io.unobserve(e.target)}})},{rootMargin:"0px 0px -10% 0px"});
+    document.querySelectorAll(".tile,.feature>*,.ref,ol.steps li,.why>div,.story>*,.contact .wrap>*").forEach(function(el){
+      if(el.getBoundingClientRect().top>innerHeight){el.classList.add("reveal");io.observe(el)}
+    });
+    document.querySelectorAll(".stat b").forEach(function(b){
+      var m=b.textContent.match(/^(\d+)(.*)$/);if(!m)return;
+      var end=+m[1],rest=m[2],ran=false;
+      var co=new IntersectionObserver(function(es){es.forEach(function(e){
+        if(!e.isIntersecting||ran)return;ran=true;co.disconnect();
+        var t0=performance.now(),dur=1100;
+        (function tick(t){var p=Math.min(1,(t-t0)/dur);p=1-Math.pow(1-p,3);b.textContent=Math.round(end*p)+rest;if(p<1)requestAnimationFrame(tick)})(t0);
+      })},{threshold:.6});
+      co.observe(b);
+    });
+  }
+})();
+</script>
+</body>
+</html>
