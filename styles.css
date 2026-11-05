@@ -151,6 +151,7 @@ dl.card dd{margin:0;min-width:0;overflow-wrap:anywhere}
 footer{border-top:1px solid var(--line)}
 footer .wrap{padding-block:24px;color:var(--muted);font-size:13.5px;display:flex;flex-wrap:wrap;gap:8px 24px;justify-content:space-between}
 footer a{color:var(--muted)}
+footer .haiku{flex-basis:100%;margin:0 0 4px;font-style:italic;line-height:1.6;color:var(--ink-2)}
 
 /* team page */
 .page-head .wrap{padding-block:clamp(56px,7vw,88px) 0}
