@@ -44,9 +44,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
   <div class="photo" aria-hidden="true"></div>
   <div class="wrap">
     <div>
-      <div class="kicker">ERP · MRP · MCP servers</div>
+      <div class="kicker">Busi · ERP · MRP · MCP</div>
       <h1>AI that does real work in your business system. <em>A person approves.</em></h1>
-      <p class="lead">SNPS builds MCP servers, ERP integrations and planning tools that let AI assistants read, plan and prepare work in the systems you already run. Every change is shown first.</p>
+      <p class="lead">SNPS builds MCP servers, ERP integrations and Busi, the AI-first client for SAP Business One. The AI reads, explains and prepares. A person approves. The system executes.</p>
       <div class="cta">
         <a class="btn primary" href="#erbjudande">See our services</a>
         <a class="btn ghost" href="people.html">Who we are</a>
@@ -116,13 +116,28 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 <div class="stats" aria-label="In short">
   <div class="wrap">
     <div class="stat"><b>85%</b><span>of the manual work automated already in beta, at a Swedish manufacturer</span></div>
-    <div class="stat"><b>1 day</b><span>from first meeting to a connected test system</span></div>
+    <div class="stat"><b>1</b><span>door that writes to your system, and only a person opens it</span></div>
     <div class="stat"><b>0</b><span>passwords to your business system stored with us</span></div>
     <div class="stat"><b>100%</b><span>of changes approved by a person before they are sent</span></div>
   </div>
 </div>
 
 <main>
+<section id="tanken">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">The idea</div>
+      <h2>Agents are probabilistic. The ledger is not.</h2>
+      <p>AI agents recommend, draft and prepare. They can be wrong, and they can be manipulated. Your business system posts exactly what it is given, once. What is missing is a person in between, who sees the exact change before anything is written.</p>
+    </div>
+    <div class="why">
+      <div><b>Agents are probabilistic</b><p>They recommend and prepare. They can be wrong, and they can be manipulated.</p></div>
+      <div><b>The ledger is deterministic</b><p>Your business system posts exactly what it is given, once, under its own permissions.</p></div>
+      <div><b>A person in between</b><p>Someone with the right to say yes sees the exact change before anything is written.</p></div>
+    </div>
+  </div>
+</section>
+
 <section id="erbjudande">
   <div class="wrap">
     <div class="sec-head">
@@ -171,8 +186,10 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
         <p>MCP (Model Context Protocol) is the open standard that lets AI assistants work with business systems. We build the MCP server around your roles and flows: sales asks about orders and stock, the planner about capacity, purchasing about late deliveries. You can own the solution yourselves.</p>
         <ul>
           <li>Sign-in with your existing account. No passwords with us.</li>
-          <li>Read tools that follow the system's own permissions.</li>
           <li>Changes are prepared as a sheet and sent only when a person presses.</li>
+          <li>Chains of steps: deliver, then invoice. The invoice waits until the delivery is approved.</li>
+          <li>A queue of what was prepared overnight: approve one, approve all, or wait.</li>
+          <li>Rewind: an invoiced chain is backed out in the right order and run again, step by step.</li>
           <li>Everything is logged: what was prepared, who approved, what the system answered.</li>
         </ul>
       </div>
@@ -213,8 +230,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
     <div class="feature flip">
       <div class="copy">
         <h3>The logic stuck in the desktop client becomes readable everywhere</h3>
-        <p>Business rules, validations, print layouts and workflows built up over the years only work in a client on one PC. We import them, translate them into plain language and make them available on the web, on mobile and for AI.</p>
+        <p>Take a typical company. Fifteen years of consultants. A rule that says a credit note needs a reason code. A print layout the warehouse depends on. Hundreds of these, built in add-ons that only work in the desktop client. Nobody has a list, and the consultant who built them left years ago. That is the real lock-in: not the system, the rules. We read them without touching anything, and write each one as a sentence the head of finance can read and say yes or no to.</p>
         <ul>
+          <li>When the business changes, the process owner changes the sentence, tries it on the test company and takes it live. No developer.</li>
           <li>Lists and cards that look like the system's own forms, so nobody has to relearn.</li>
           <li>Pick and pack, purchasing, returns and approvals as workflows.</li>
           <li>Documents in the customer's language and currency, as PDF, email or print.</li>
@@ -239,6 +257,7 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
           <li>Purchase and production recommendations with their reason.</li>
           <li>Capacity per work station, and late orders.</li>
           <li>Can we deliver, and when, straight to the salesperson.</li>
+          <li>Operators report good and scrap from a phone with one press. Reporting takes less time than the work did.</li>
         </ul>
       </div>
       <figure class="shot"><img src="../img/capacity.jpg" alt="Capacity board with resources per day, orders dragged to a date and load per station" width="1440" height="900"><figcaption>Capacity per station and day. Orders are dragged to the day they run; overload shows at once.</figcaption></figure>
@@ -250,9 +269,18 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
   <div class="wrap">
     <div class="sec-head">
       <div class="kicker">Our product</div>
-      <h2>Busi: agents do the work, people approve.</h2>
-      <p>Busi brings AI agents into SAP Business One, through the AI assistant you already use. It reads SAP as the person, prepares every change and shows it in SAP's own form. Nothing is written until a person approves, and Business One stays the record.</p>
+      <h2>Busi: the AI-first client for SAP Business One.</h2>
+      <p>Most Business One customers still run the desktop client, with years of business logic locked inside it and the add-ons around it. Busi is the way out. You ask for the work in your own words, and even multi-step tasks come back prepared. Business One stays the system of record, and Busi does the work on top.</p>
+    </div>
+    <div class="why">
+      <div><b>A client, rebuilt</b><p>Every module on a modern page that looks like SAP's own forms, on web and mobile, in your language.</p></div>
+      <div><b>An MCP server</b><p>Any AI assistant, signed in as you, with tools to find, show, report and prepare. None of them write.</p></div>
+      <div><b>The gate</b><p>Every change is a receipt in SAP's form. One press approves it, a passkey when money moves, and all of it is on record.</p></div>
+    </div>
+    <p style="margin-top:28px;font-weight:700">Agents recommend. A person approves. SAP executes.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px">
       <a class="btn primary" href="https://busi.nu/">Read more at busi.nu</a>
+      <a class="btn" href="https://busi.nu/busi-one-pager.pdf">The one-pager (PDF)</a>
     </div>
   </div>
 </section>
@@ -292,9 +320,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
       <h2>Not a vendor. A partner that runs what it builds.</h2>
     </div>
     <div class="why">
-      <div><b>Your sign-in, your permissions</b><p>Every person works as themselves. The assistant sees only what the system already allows.</p></div>
-      <div><b>Reading can never write</b><p>Read tools and write paths are kept apart in the code and tested separately.</p></div>
-      <div><b>The approval is the lock</b><p>The AI prepares. Only a person who presses sends the change, and the result is read back.</p></div>
+      <div><b>Your system decides who may do what</b><p>No roles of our own. Every read and write runs as the person, under the system's own permissions, so segregation of duties stays where it belongs.</p></div>
+      <div><b>Reading can never write</b><p>The guards are code underneath the model, not instructions in a prompt. A test fails the moment any path writes without a person's approval.</p></div>
+      <div><b>Money takes a passkey</b><p>Anything that posts, moves money or changes rights takes your passkey, for that one change. A browser can be automated. A finger cannot.</p></div>
     </div>
   </div>
 </section>
@@ -307,7 +335,8 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
     </div>
     <div class="story">
       <div class="copy">
-        <p>In the summer of 2026, BeOneNorth and T2 ran the first AI Summer Camp in Skellefteå, Sweden. Three manufacturers brought real challenges. Egil and Vide were on the team that solved them, and then founded SNPS AB.</p>
+        <p>BeOneNorth and T2 ran the first AI Summer Camp in Skellefteå, Sweden. Three manufacturers brought real challenges. Egil and Vide were on the team that solved them, and then founded SNPS AB.</p>
+        <p>Behind Busi is also Korey, with thirty years of ERP and product management, the last as a Business One architect for manufacturers in the Nordics. When he showed the team a drag-and-drop builder, they laughed: they would rather ask the system than click through it. Their ideas and his experience became Busi. Two who grew up with AI, one who grew up with ERP.</p>
         <div class="stats"><div class="wrap">
           <div class="stat"><b>85%</b><span>of the manual work automated already in beta</span></div>
           <div class="stat"><b>3</b><span>manufacturers with real challenges</span></div>
@@ -335,20 +364,21 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
       <h2>Get in touch with us directly.</h2>
       <p>We are a small team that builds, delivers and runs everything ourselves. The person you talk to is the person who builds.</p>
       <dl class="card" style="margin-top:24px">
-        <dt>Email</dt><dd><a href="mailto:kontakt@snps.se">kontakt@snps.se</a></dd>
-        <dt>Phone</dt><dd><a href="tel:+46739852506">+46 73 985 25 06</a></dd>
+        <dt>Email</dt><dd><a href="mailto:korey.snodgrass@snps.se">korey.snodgrass@snps.se</a></dd>
+        <dt>Phone</dt><dd><a href="tel:+46724461154">+46 72 446 11 54</a></dd>
         <dt>Company</dt><dd>SNPS AB · Reg. no. 559527-2443</dd>
         <dt>Address</dt><dd>Lägergatan 23, SE-934 51 Byske, Sweden</dd>
       </dl>
     </div>
     <div class="person" style="align-self:center">
       <div class="avatar" aria-hidden="true">?</div>
-      <div><h3>Who will you talk to?</h3><p>We are two founders who build and deliver ourselves. Read who we are and how to reach us directly.</p><p><a class="btn" href="people.html">People →</a></p></div>
+      <div><h3>Who will you talk to?</h3><p>We are three: two who grew up with AI and one who grew up with ERP. Read who we are and how to reach us directly.</p><p><a class="btn" href="people.html">People →</a></p></div>
     </div>
   </div>
 </div>
 
 <footer><div class="wrap">
+  <p class="haiku">ask, and the work comes<br>one finger says yes or no<br>the ledger stays true</p>
   <span>© 2026 SNPS AB · Reg. no. 559527-2443 · Lägergatan 23, SE-934 51 Byske, Sweden</span>
 </div></footer>
 

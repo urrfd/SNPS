@@ -44,9 +44,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
   <div class="photo" aria-hidden="true"></div>
   <div class="wrap">
     <div>
-      <div class="kicker">ERP · MRP · MCP-servrar</div>
+      <div class="kicker">Busi · ERP · MRP · MCP</div>
       <h1>AI som gör riktigt arbete i ert affärssystem. <em>En människa godkänner.</em></h1>
-      <p class="lead">SNPS bygger MCP-servrar, ERP-integrationer och planeringsverktyg som låter AI-assistenter läsa, planera och förbereda arbete i de system ni redan kör. Varje ändring visas först.</p>
+      <p class="lead">SNPS bygger MCP-servrar, ERP-integrationer och Busi, AI-först-klienten för SAP Business One. AI:n läser, förklarar och förbereder. En människa godkänner. Systemet utför.</p>
       <div class="cta">
         <a class="btn primary" href="#erbjudande">Se vårt erbjudande</a>
         <a class="btn ghost" href="personer.html">Vilka vi är</a>
@@ -116,13 +116,28 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
 <div class="stats" aria-label="I korthet">
   <div class="wrap">
     <div class="stat"><b>85 %</b><span>av det manuella arbetet automatiserat redan i beta, hos en svensk industrikund</span></div>
-    <div class="stat"><b>1 dag</b><span>från första möte till uppkopplad testmiljö</span></div>
+    <div class="stat"><b>1</b><span>dörr som skriver till ert system, och bara en människa öppnar den</span></div>
     <div class="stat"><b>0</b><span>lösenord till ert affärssystem lagras hos oss</span></div>
     <div class="stat"><b>100 %</b><span>av ändringarna godkänns av en människa innan de skickas</span></div>
   </div>
 </div>
 
 <main>
+<section id="tanken">
+  <div class="wrap">
+    <div class="sec-head">
+      <div class="kicker">Tanken bakom</div>
+      <h2>Agenter gissar. Bokföringen gör exakt det den får.</h2>
+      <p>AI-agenter rekommenderar, skriver utkast och förbereder. De kan ha fel, och de kan luras. Affärssystemet bokför exakt det det får, en gång. Det som saknas är en människa emellan, som ser den exakta ändringen innan något skrivs.</p>
+    </div>
+    <div class="why">
+      <div><b>Agenten är en sannolikhet</b><p>Den rekommenderar och förbereder. Den kan ha fel, och den kan manipuleras.</p></div>
+      <div><b>Bokföringen är exakt</b><p>Affärssystemet bokför det det får, en gång, under sina egna behörigheter.</p></div>
+      <div><b>En människa emellan</b><p>Någon med rätt att säga ja ser den exakta ändringen innan något skrivs.</p></div>
+    </div>
+  </div>
+</section>
+
 <section id="erbjudande">
   <div class="wrap">
     <div class="sec-head">
@@ -171,8 +186,10 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
         <p>MCP (Model Context Protocol) är den öppna standarden som låter AI-assistenter arbeta med affärssystem. Vi bygger MCP-servern efter era roller och flöden: säljaren frågar om order och lager, planeraren om kapacitet, inköparen om sena leveranser. Ni kan äga lösningen själva.</p>
         <ul>
           <li>Inloggning via ert befintliga konto. Inga lösenord hos oss.</li>
-          <li>Läsverktyg som följer systemets egna behörigheter.</li>
           <li>Ändringar förbereds som ett blad och skickas först när en person trycker.</li>
+          <li>Kedjor av steg: leverera, sedan fakturera. Fakturan väntar tills leveransen är godkänd.</li>
+          <li>En kö med det som förbereddes under natten: godkänn ett, godkänn alla eller vänta.</li>
+          <li>Spola tillbaka: en fakturerad kedja backas i rätt ordning och görs om, steg för steg.</li>
           <li>Allt loggas: vad som förbereddes, vem som godkände, vad systemet svarade.</li>
         </ul>
       </div>
@@ -213,8 +230,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
     <div class="feature flip">
       <div class="copy">
         <h3>Logiken som sitter fast i skrivbordsklienten blir läsbar överallt</h3>
-        <p>Affärsregler, valideringar, utskriftsmallar och arbetsflöden som byggts under åren fungerar bara i en klient på en PC. Vi importerar dem, översätter dem till klartext och gör dem tillgängliga på webb, mobil och för AI.</p>
+        <p>Ta ett typiskt företag. Femton år av konsulter. En regel som säger att en kreditnota behöver en orsakskod. En utskriftsmall som lagret är beroende av. Hundratals sådana, byggda i tillägg som bara fungerar i skrivbordsklienten. Ingen har en lista, och konsulten som byggde dem slutade för länge sedan. Det är den verkliga inlåsningen: inte systemet, utan reglerna. Vi läser dem utan att röra något, och skriver varje regel som en mening som ekonomichefen kan läsa och säga ja eller nej till.</p>
         <ul>
+          <li>När verksamheten ändras ändrar processägaren meningen, provar den på testbolaget och för den live. Ingen utvecklare.</li>
           <li>Listor och kort som ser ut som systemets egna formulär, så ingen behöver lära om.</li>
           <li>Plock och pack, inköp, returer och godkännanden som arbetsflöden.</li>
           <li>Dokument i kundens språk och valuta, som PDF, e-post eller utskrift.</li>
@@ -239,6 +257,7 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
           <li>Inköps- och tillverkningsförslag med orsak.</li>
           <li>Kapacitet per station och sena order.</li>
           <li>Kan vi leverera, och när, direkt till säljaren.</li>
+          <li>Operatören rapporterar bra och kassation från telefonen med ett tryck. Rapporten tar kortare tid än jobbet.</li>
         </ul>
       </div>
       <figure class="shot"><img src="img/capacity.jpg" alt="Kapacitetstavla med resurser per dag, order som dras till ett datum och belastning per station" width="1440" height="900"><figcaption>Kapacitet per station och dag. Order dras till den dag de ska köras; överbelastning syns direkt.</figcaption></figure>
@@ -250,9 +269,18 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
   <div class="wrap">
     <div class="sec-head">
       <div class="kicker">Vår produkt</div>
-      <h2>Busi: agenterna gör jobbet, människor godkänner.</h2>
-      <p>Busi tar in AI-agenter i SAP Business One, genom den AI-assistent ni redan använder. Den läser SAP som personen, förbereder varje ändring och visar den i SAP:s eget formulär. Inget skrivs förrän en människa godkänner, och Business One förblir det som gäller.</p>
+      <h2>Busi: AI-först-klienten för SAP Business One.</h2>
+      <p>De flesta Business One-kunder kör fortfarande skrivbordsklienten, med åratal av affärslogik inlåst i den och i tilläggen runt den. Busi är vägen ut. Ni ber om arbetet med egna ord, och även uppgifter i många steg kommer tillbaka förberedda. Business One förblir det som gäller, och Busi gör arbetet ovanpå.</p>
+    </div>
+    <div class="why">
+      <div><b>En klient, ombyggd</b><p>Varje modul på en modern sida som ser ut som SAP:s egna formulär, på webb och mobil, på ert språk.</p></div>
+      <div><b>En MCP-server</b><p>Vilken AI-assistent som helst, inloggad som du, med verktyg som hittar, visar, rapporterar och förbereder. Inget av dem skriver.</p></div>
+      <div><b>Spärren</b><p>Varje ändring blir ett kvitto i SAP:s formulär. Ett tryck godkänner, en passkey när pengar rör sig, och allt sparas.</p></div>
+    </div>
+    <p style="margin-top:28px;font-weight:700">Agenter rekommenderar. En människa godkänner. SAP utför.</p>
+    <div style="display:flex;flex-wrap:wrap;gap:12px;margin-top:18px">
       <a class="btn primary" href="https://busi.nu/sv/">Läs mer på busi.nu</a>
+      <a class="btn" href="https://busi.nu/busi-one-pager.pdf">Översikten som PDF (engelska)</a>
     </div>
   </div>
 </section>
@@ -292,9 +320,9 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
       <h2>Inte en leverantör. En partner som driftar det den bygger.</h2>
     </div>
     <div class="why">
-      <div><b>Er inloggning, era behörigheter</b><p>Varje person arbetar som sig själv. Assistenten ser bara det systemet redan tillåter.</p></div>
-      <div><b>Läsa kan aldrig skriva</b><p>Läsverktyg och skrivvägar är åtskilda i koden och testas var för sig.</p></div>
-      <div><b>Godkännandet är spärren</b><p>AI:n förbereder. Bara en person som trycker skickar ändringen, och resultatet läses tillbaka.</p></div>
+      <div><b>Systemet bestämmer vem som får göra vad</b><p>Inga egna roller. Varje läsning och skrivning sker som personen, under systemets egna behörigheter, så attestordningen ligger kvar där den hör hemma.</p></div>
+      <div><b>Läsa kan aldrig skriva</b><p>Spärrarna är kod under modellen, inte instruktioner i en prompt. Ett test slår larm så fort en väg skriver utan en människas godkännande.</p></div>
+      <div><b>Pengar kräver en passkey</b><p>Det som bokför, flyttar pengar eller ändrar behörigheter kräver din passkey, för just den ändringen. En webbläsare kan automatiseras. Ett finger kan inte.</p></div>
     </div>
   </div>
 </section>
@@ -307,7 +335,8 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
     </div>
     <div class="story">
       <div class="copy">
-        <p>Sommaren 2026 genomförde BeOneNorth och T2 den första upplagan av AI Summer Camp i Skellefteå. Tre industriföretag lämnade verkliga utmaningar. Egil och Vide var med i teamet som löste dem, och grundade sedan SNPS AB.</p>
+        <p>BeOneNorth och T2 genomförde den första upplagan av AI Summer Camp i Skellefteå. Tre industriföretag lämnade verkliga utmaningar. Egil och Vide var med i teamet som löste dem, och grundade sedan SNPS AB.</p>
+        <p>Bakom Busi finns också Korey, med trettio år inom ERP och produktledning, de senaste som Business One-arkitekt åt tillverkare i Norden. När han visade teamet en dra-och-släpp-byggare skrattade de: de ville hellre fråga systemet än klicka sig igenom det. Deras idéer och hans erfarenhet blev Busi. Två som vuxit upp med AI, en som vuxit upp med ERP.</p>
         <div class="stats"><div class="wrap">
           <div class="stat"><b>85 %</b><span>av det manuella arbetet automatiserat redan i beta</span></div>
           <div class="stat"><b>3</b><span>industriföretag med verkliga utmaningar</span></div>
@@ -335,20 +364,21 @@ document.addEventListener("click",function(e){var a=e.target.closest&&e.target.c
       <h2>Hör av dig direkt till oss.</h2>
       <p>Vi är ett litet team som bygger, levererar och driftar själva. Den du pratar med är samma person som bygger.</p>
       <dl class="card" style="margin-top:24px">
-        <dt>E-post</dt><dd><a href="mailto:kontakt@snps.se">kontakt@snps.se</a></dd>
-        <dt>Telefon</dt><dd><a href="tel:+46739852506">073 985 25 06</a></dd>
+        <dt>E-post</dt><dd><a href="mailto:korey.snodgrass@snps.se">korey.snodgrass@snps.se</a></dd>
+        <dt>Telefon</dt><dd><a href="tel:+46724461154">072 446 11 54</a></dd>
         <dt>Bolag</dt><dd>SNPS AB · org.nr 559527-2443</dd>
         <dt>Adress</dt><dd>Lägergatan 23, 934 51 Byske</dd>
       </dl>
     </div>
     <div class="person" style="align-self:center">
       <div class="avatar" aria-hidden="true">?</div>
-      <div><h3>Vem pratar du med?</h3><p>Vi är två grundare som bygger och levererar själva. Läs vilka vi är och hur du når oss direkt.</p><p><a class="btn" href="personer.html">Personer →</a></p></div>
+      <div><h3>Vem pratar du med?</h3><p>Vi är tre: två som vuxit upp med AI och en som vuxit upp med ERP. Läs vilka vi är och hur du når oss direkt.</p><p><a class="btn" href="personer.html">Personer →</a></p></div>
     </div>
   </div>
 </div>
 
 <footer><div class="wrap">
+  <p class="haiku">fråga, så görs det<br>ett finger säger ja, nej<br>boken förblir sann</p>
   <span>© 2026 SNPS AB · org.nr 559527-2443 · Lägergatan 23, 934 51 Byske</span>
 </div></footer>
 
